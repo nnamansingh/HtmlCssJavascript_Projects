@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+
+
+:root {
+    --main-bg-color: rgb(42, 181, 245);
+    --font1: 'Ubuntu', sans-serif;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Baloo Bhaina 2', cursive;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.max-width-1 {
+    width: 80vw;
+}
+
+.max-width-2 {
+    width: 50vw;
+}
+
+.mx-1 {
+    margin-left: 50px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.form-input {
+    font-family: var(--font1);
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 5px;
+    padding-top: 3px;
+    margin: 0 13px;
+}
+
+.btn {
+
+    font-family: var(--font1);
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-box input, textarea {
+    width: 50vw;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+}

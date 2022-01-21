@@ -1,0 +1,65 @@
+@media screen and (max-width:1200px) {
+    .navigation {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .nav-left {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .content-right {
+        display: none;
+    }
+
+    .home-article {
+        flex-direction: column;
+    }
+
+    .home-article img {
+        margin: auto;
+        display: block;
+        width: 35vw;
+    }
+
+    .year-box {
+        left: 60vw;
+        top: 25px;
+        font-size: 10px;
+        display: flex;
+    }
+
+    .year-box div {
+        padding: 0;
+        margin: 0;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+    .adjust-year{
+        height: auto;
+        position: static;
+        padding: 12px 0;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .blogpost-meta {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .post-img {
+        height: auto;
+    }
+
+}
